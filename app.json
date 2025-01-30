@@ -1,0 +1,47 @@
+{
+  "expo": {
+    "name": "arogyasarn",
+    "slug": "arogya",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/logo.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSCameraUsageDescription": "This app needs access to the camera to capture photos.",
+        "NSLocationWhenInUseUsageDescription": "This app needs access to your location for geotagging.",
+        "NSPhotoLibraryAddUsageDescription": "This app needs access to your photo library to save photos."
+      },
+      "bundleIdentifier": "com.erdeepak.arogya"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/logo.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.erdeepak.arogya",
+      "permissions": [
+        "INTERNET",
+        "CAMERA",
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_COARSE_LOCATION",
+        "WRITE_EXTERNAL_STORAGE"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/images/logo.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "c67dc916-6fc5-4f65-a001-e3b6f352c909"
+      }
+    }
+  }
+}
